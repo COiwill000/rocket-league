@@ -1,38 +1,25 @@
 # Rocket League Mini
 
-A lightweight, browser-based Rocket League-inspired game built with plain HTML, CSS, and JavaScript so it works without external libraries or blocked assets.
+A small Rocket League-inspired arcade car-soccer game made with plain HTML, CSS, and JavaScript.
 
-## Play it locally
+## Run locally
 
-1. Open the repository folder in a browser, or run a local web server:
-   ```bash
-   cd rocket-league
-   python3 -m http.server 8000
-   ```
-2. Visit:
-   ```text
-   http://localhost:8000/
-   ```
+Open `index.html` in Chrome, or serve this folder with `python3 -m http.server 8000` and visit `http://localhost:8000`.
 
 ## Controls
 
-- Drive: W/A/S/D or Arrow Keys
+- Drive/steer: W/A/S/D or arrow keys
 - Boost: Shift
-- Jump: Space
-- Air Roll: Q / E
-- Power Slide: C
-- Flip Reset: R
+- Jump/flip: Space
+- Air roll: Q/E
+- Power slide: C
 - Pause: Esc
+- Touchscreens: on-screen joystick and buttons
 
-## Graphics settings
+## Modes and performance
 
-- Very Low (lowest)
-- Low
-- Medium
-- High
+Choose Practice or Play vs Bot from the menu. Graphics settings range from Very Low to High. ChromeOS automatically uses Very Low graphics and a 30 FPS cap to reduce load on school Chromebooks. The game has no external assets or libraries.
 
-The game is tuned to run smoothly on low-end devices by using simple canvas drawing, reduced particle counts, and no external dependencies.
+## School network note
 
-## Notes
-
-This repo is private, so GitHub Pages is not enabled. The site is still playable as a local static web page in the browser.
+This game cannot override a school's web filter, managed-device policy, or administrator restrictions. If GitHub or the hosted game is blocked, ask your teacher or school IT staff to approve access or provide an allowed hosting location. Do not try to evade the school's controls.
